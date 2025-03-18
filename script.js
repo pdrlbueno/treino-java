@@ -11,10 +11,21 @@ function sindicato(){
 let numero;
 
 function verificarPar(numero){
-    if(numero%2 == 0){
+    if(numero%2 === 0){
         console.log("par");
     }else{
         console.log("impar");
     }
     
+}
+
+//Operações Matemáticas Simples:
+let a;
+let b;
+
+function calcular(a,b){
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
 }
