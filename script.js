@@ -29,3 +29,13 @@ function calcular(a,b){
     console.log(a * b);
     console.log(a / b);
 }
+
+// Laço While para Contagem Regressiva:
+let x = 10;
+function Contagem(){
+    while(x > 0 ){
+        console.log(x);
+        x = x - 1;
+       
+    }
+}
