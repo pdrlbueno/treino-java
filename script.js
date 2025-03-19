@@ -41,9 +41,15 @@ function Contagem(){
 }
 
 //Manipulação de Strings:
-let text;
+let text = "retangulo";
 function inverterTexo(text){
 
-   return text.split("").reverse().join("");
+    console.log(text.split("").reverse().join(""))
    
+}
+
+// Contagem de Caracteres em uma String:
+let texto;
+function contarCaracteres(texto) {
+    console.log( texto.length);
 }
