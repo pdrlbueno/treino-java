@@ -39,3 +39,11 @@ function Contagem(){
        
     }
 }
+
+//Manipulação de Strings:
+let text;
+function inverterTexo(text){
+
+   return text.split("").reverse().join("");
+   
+}
