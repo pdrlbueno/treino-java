@@ -7,7 +7,7 @@ function sindicato(){
     console.log("ola", + nome);
 }
 
-//par ou impar
+//par ou impar 1
 let numero;
 
 function verificarPar(numero){
@@ -19,7 +19,7 @@ function verificarPar(numero){
     
 }
 
-//Operações Matemáticas Simples:
+//Operações Matemáticas Simples: 2
 let a;
 let b;
 
@@ -30,7 +30,7 @@ function calcular(a,b){
     console.log(a / b);
 }
 
-// Laço While para Contagem Regressiva:
+// Laço While para Contagem Regressiva: 3
 let x = 10;
 function Contagem(){
     while(x > 0 ){
@@ -40,7 +40,7 @@ function Contagem(){
     }
 }
 
-//Manipulação de Strings:
+//Manipulação de Strings: 4
 let text = "retangulo";
 function inverterTexo(text){
 
@@ -48,13 +48,13 @@ function inverterTexo(text){
    
 }
 
-// Contagem de Caracteres em uma String:
+// Contagem de Caracteres em uma String: 5
 let texto;
 function contarCaracteres(texto) {
     console.log( texto.length);
 }
 
-//Acessando Propriedades de Objetos:
+//Acessando Propriedades de Objetos: 6
 let carro = {
 
     modelo: "show de bola",
@@ -62,9 +62,13 @@ let carro = {
     ano: 2008
 
 }
-console.log (carro);
 
-// Função com Parâmetros Opcionais:
+function mostrarCarro(){
+    console.log (carro);
+}
+
+
+// Função com Parâmetros Opcionais: 7
 let name;
 const mensagem = "Olá!";
 
@@ -72,7 +76,7 @@ function  mensagemPersonalizada(name,mensagem){
 
     console.log(mensagem + name);
 }
-// Calculadora de Média:
+// Calculadora de Média: 8
 let num1 ;
 let num2 ;
 let num3 ;
@@ -82,7 +86,7 @@ function mediaAritimetrica(num1,num2,num3,media){
     media = (num1 + num2 + num3)/3;
     console.log(media);
 }
-// Laço for com Condição:
+// Laço for com Condição: 9
 function multiplos(){
     for (let i = 0; i < 21 ; i++){
         console.log(i);
@@ -94,7 +98,7 @@ function multiplos(){
     }
 }
 
-// Verificação de Palavra Palíndroma:
+// Verificação de Palavra Palíndroma: 10
 let palavra ;
 function verificarPalindromo(palavra){
 
