@@ -53,3 +53,18 @@ let texto;
 function contarCaracteres(texto) {
     console.log( texto.length);
 }
+
+//Acessando Propriedades de Objetos:
+let carro = {
+    marca : "nissan",
+    modelo : "gay" ,
+    ano : 2008
+}
+print ( carro);
+
+// Função com Parâmetros Opcionais:
+let name;
+let mensagem = "Olá";
+function  mensagemPersonalizada(name,mensagem){
+
+}
