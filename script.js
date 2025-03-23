@@ -113,14 +113,33 @@ function verificarPalindromo(palavra) {
 }
 
 //11. Verificação de Número Positivo ou Negativo:
-//Crie uma função chamada verificarSinal que receba um número como parâmetro e imprima "Positivo", "Negativo" ou "Zero" conforme o caso.
-
+function verificarSinal(x){
+    if (x > 0){
+        console.log("positivo");
+    }else{
+        console.log("negativo");
+    }
+}
 //12. Função para Converter Celsius em Fahrenheit:
 ///Crie uma função chamada converterTemperatura que receba uma temperatura em Celsius e retorne o valor convertido para Fahrenheit.
+let temperatura;
+function converterTemperatura(temperatura){
+    console.log(temperatura * 9/5 + 32);
+}
 
 //13. Laço While para Somatório:
 //Crie um laço while que some os números de 1 até 100 e imprima o resultado final.
-
+function Somatoria(){
+    let num = 0;
+    let total = 0;
+    while (num < 100){
+        num++;
+        total = num + total
+        
+        
+    }
+    console.log(total);
+}
 //14. Substituição de Palavras em String:
 
 function substituirPalavra(texto) {
@@ -129,19 +148,45 @@ function substituirPalavra(texto) {
 
 //15. Verificação de Tamanho de String:
 //Crie uma função chamada verificarTamanho que receba uma string e informe se ela tem mais de 10 caracteres ou não.
-
+function  verificarTamanho(texto){
+    if (texto.length > 10){
+        console.log("tem mais de 10 caracteres");
+    }else{
+        console.log("não tem mais de 10 caracteres");
+    }
+}
 //16. Criando e Acessando Array:
 
 //Crie um array chamado frutas com pelo menos 5 frutas diferentes.Imprima no console a terceira fruta da lista.
 
 //17. Função com Valor Padrão em Dois Parâmetros:
 //Crie uma função chamada saudacao que tenha dois parâmetros, nome e saudacao, sendo saudacao padrão "Bem-vindo(a)".A função deve retornar a frase completa.
+let saudacao = "Bem-vindo";
+function sausacao(nome,saudacao){
+
+    console.log(saudacao + nome);
+}
 
 //18. Verificação de Nota:
 //Crie uma função chamada verificarAprovacao que receba uma nota e retorne "Aprovado" se for maior ou igual a 6, e "Reprovado" se for menor que 6.
+let nota;
+function  verificarNota(nota){
+    if (nota > 6){
+        console.log("Aprovado");
+    }else{
+        console.log("Reprovado");
+    }
+}
 
 //19. Laço for para Contagem de Pares:
 //Crie um laço for que percorra os números de 0 a 30 e imprima apenas os números pares.
+function numerosPares(){
+    for (let n = 0; n < 31; n++){
+        if (n%2 == 0){
+            console.log(n)
+        }
+    }
+}
 
 //20. Contagem de Vogais:
 function contarVogais(palavra){
@@ -162,12 +207,27 @@ function contarVogais(palavra){
 //22. Função para Dobrar Números:
 
 ///rie uma função chamada dobrarNumero que receba um número e retorne o dobro desse número.
+function dobrarNumero(num){
+
+    console.log(num*2);
+}
 
 //23. Laço While para Contagem de Pares:
 //Crie um laço while que imprima todos os números pares de 2 até 20.
+function numerosPares2(){
+    for (let n = 2; n < 21; n++){
+        if (n%2 == 0){
+            console.log(n)
+        }
+    }
+}
+
 
 //24. Capitalizar Primeira Letra:
 //Crie uma função chamada capitalizar que receba uma string e retorne a mesma string com a primeira letra maiúscula.Exemplo: "javascript" → "Javascript".
+function capitalizar(texto) {
+    console.log(texto.replace(/azul/g,"vemelho"));
+}
 
 //25. Verificação de Ano Bissexto:
 //Crie uma função chamada anoBissexto que receba um ano e retorne true se for bissexto, ou false se não for.
