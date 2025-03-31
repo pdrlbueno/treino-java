@@ -156,8 +156,12 @@ function  verificarTamanho(texto){
     }
 }
 //16. Criando e Acessando Array:
-
 //Crie um array chamado frutas com pelo menos 5 frutas diferentes.Imprima no console a terceira fruta da lista.
+const frutas = ["maça", "uva", "tangerina", "abacaxi", "carambola"];
+function mostrarfruta(){
+    console.log(frutas[2]);
+}
+
 
 //17. Função com Valor Padrão em Dois Parâmetros:
 //Crie uma função chamada saudacao que tenha dois parâmetros, nome e saudacao, sendo saudacao padrão "Bem-vindo(a)".A função deve retornar a frase completa.
@@ -202,7 +206,14 @@ function contarVogais(palavra){
     console.log(contador);
 }
 //21. Soma dos Elementos de um Array:
-
+const arrayNumeros = [4,6,7,3];
+function somarArray(){
+    let total = 0;
+    for(let n = 0 ; n < 4 ; n++){
+        total = total + arrayNumeros[n];
+    }
+    console.log(total);
+}
 
 //22. Função para Dobrar Números:
 
@@ -231,3 +242,11 @@ function capitalizar(texto) {
 
 //25. Verificação de Ano Bissexto:
 //Crie uma função chamada anoBissexto que receba um ano e retorne true se for bissexto, ou false se não for.
+let ano;
+function anoBissexto(){
+    if((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
+        return("true");
+    }else{
+        return("false");
+    }
+}
